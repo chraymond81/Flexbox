@@ -1,0 +1,40 @@
+.larger-text {
+  font-size: 32px;
+}
+div {
+  border: 1px;
+  border-style: dotted;
+  padding: 10px;
+}
+
+.container-parent {
+  width: 95%;
+  background: silver;
+  display: flex;
+  justify-content: center;
+  /*align-items: stretch;*/
+}
+.item-parent {
+  height: 100px;
+  min-width: 200px;
+  flex-grow: 1;
+}
+.container {
+  flex-grow: 1;
+  background: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.items {
+  height: 100px;
+  min-width: 200px;
+  flex-grow: 1;
+}
+
+.item-1 {
+}
+
+.item-2 {
+}
