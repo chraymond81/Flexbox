@@ -5,31 +5,36 @@ div {
   border: 1px;
   border-style: dotted;
   padding: 10px;
+  text-align: center;
 }
 
-.container-parent {
+.container-item-g-7-8 {
   width: 95%;
   background: silver;
   display: flex;
   align-items: stretch;
 }
-.item-parent {
-  min-width: 200px;
-  flex-grow: 2;
-}
-.container {
-  flex-grow: 1;
+.container-item-g-8 {
   background: green;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.items {
-  height: 100px;
-  min-width: 200px;
   flex-grow: 1;
 }
 
-.item-3 {
+.items-8 {
+  height: 100px;
+  min-width: 200px;
+  flex-grow: 8; /*pour les items de cette génération*/
+}
+.item-8-m {
+  background-color: blue;
+}
+.item-8-f {
+  background-color: pink;
+}
+
+.item-7 {
+  background-color: purple;
+  flex-grow: 2;
 }
